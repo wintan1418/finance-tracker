@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_stocks
   devise_for :users
   # devise_for :users
   root 'rooms#index'
