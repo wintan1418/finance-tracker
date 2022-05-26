@@ -13,6 +13,7 @@ gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
+gem "stock_quote", '~> 3.0.0'
 gem 'iex-ruby-client'
 gem "font-awesome-rails"
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
