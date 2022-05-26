@@ -8,5 +8,5 @@ class Stock < ApplicationRecord
     rescue => exception
       return nil
     end
-  end
+  end 
 end
