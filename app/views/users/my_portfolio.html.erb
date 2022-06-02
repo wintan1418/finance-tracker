@@ -1,7 +1,9 @@
 <h1>My portfolio</h1>
 
 
-<div class='search-area'>
+
+
+<div class="row<div class='search-area'>
   <h3> Search stocks </h3>
   <%= form_tag search_stock_path, remote:true, method: :get do%>
   <div class="form-group row">
@@ -19,9 +21,7 @@
 
 <div id="results">
 
-</div>
-
-<div class="row" >
+</div>" >
   <div class="col-9">
 
   <% if !@tracked_stocks.empty?%>
