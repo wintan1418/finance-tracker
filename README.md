@@ -7,7 +7,7 @@ This app implements quite a lot of ROR best practices which includes DRY,consist
 ![screenshot](./app/images/TRACKER-PORTFOLIO.png)
 ![screenshot](./app/images/TRACKER-FRIENDS.png)
 
-[Live version](https://wizardly-mcnulty-36f1de.netlify.app/)
+[Live version](https://vast-peak-21140.herokuapp.com/)
 
 ## Built With
 
