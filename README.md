@@ -1,11 +1,11 @@
 ## Finance tracker
-This project is a stoc tracking app that helps you get stock price of most companies, it fetches it's result from Iex Api and it gives functionalities for searching through for stock prices by entering the right ticker symbol,and it goes ahead to give you the opportunity to add other users on the platform as friends, you can open another incognito page on the web and register two different users, then add the other as friend and vice versa.
+This project is a stock tracking app that helps you get stock price of most companies, it fetches it's result from Iex Api and it gives functionalities for searching through for stock prices by entering the right ticker symbol,and it goes ahead to give you the opportunity to add other users on the platform as friends, you can open another incognito page on the web and register two different users, then add the other as friend and vice versa.
 
 This app implements quite a lot of ROR best practices which includes DRY,consistent MVC pattern and is going to be improved even as more ideas come to mind, but for now this is a functioning app that can serve you some market info of what shares to invest in.
 
 ![screenshot](./app/images/TRACKER-LOGIN.png)
-[screenshot](./app/images/TRACKER-PORTFOLIO.png)
-[screenshot](./app/images/TRACKER-FRIENDS.png)
+![screenshot](./app/images/TRACKER-PORTFOLIO.png)
+![screenshot](./app/images/TRACKER-FRIENDS.png)
 
 [Live version](https://wizardly-mcnulty-36f1de.netlify.app/)
 
