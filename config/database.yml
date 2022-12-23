@@ -22,4 +22,5 @@ test:
 
 production:
   <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
   database: db/production.sqlite3
