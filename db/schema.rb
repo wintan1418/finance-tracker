@@ -12,9 +12,12 @@
 
 ActiveRecord::Schema.define(version: 2022_06_02_095932) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "friendships", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.integer "friend_id"
+    t.bigint "user_id", null: false
+    t.bigint "friend_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["friend_id"], name: "index_friendships_on_friend_id"
@@ -30,8 +33,8 @@ ActiveRecord::Schema.define(version: 2022_06_02_095932) do
   end
 
   create_table "user_stocks", force: :cascade do |t|
-    t.integer "user_id", null: false
-    t.integer "stock_id", null: false
+    t.bigint "user_id", null: false
+    t.bigint "stock_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["stock_id"], name: "index_user_stocks_on_stock_id"
